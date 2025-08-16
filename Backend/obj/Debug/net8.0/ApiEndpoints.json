@@ -1,0 +1,177 @@
+[
+  {
+    "ContainingType": "TalentBridge2.Controllers.AuthController",
+    "Method": "CheckEmailExists",
+    "RelativePath": "api/auth/check-email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalentBridge2.Controllers.AuthController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/auth/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalentBridge2.Controllers.AuthController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/auth/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forgotPassword",
+        "Type": "TalentBridge2.Models.ForgotPassword",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalentBridge2.Controllers.AuthController",
+    "Method": "GetUserByUserName",
+    "RelativePath": "api/auth/get/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalentBridge2.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "TalentBridge2.Models.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalentBridge2.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "register",
+        "Type": "TalentBridge2.Models.Register",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalentBridge2.Controllers.JobController",
+    "Method": "GetJobById",
+    "RelativePath": "api/job/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalentBridge2.Controllers.JobController",
+    "Method": "DeleteJob",
+    "RelativePath": "api/job/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalentBridge2.Controllers.JobController",
+    "Method": "GetJobs",
+    "RelativePath": "api/job/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalentBridge2.Controllers.JobController",
+    "Method": "PostJob",
+    "RelativePath": "api/job/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "job",
+        "Type": "TalentBridge2.Models.Job",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalentBridge2.Controllers.JobController",
+    "Method": "UpdateJob",
+    "RelativePath": "api/job/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedJob",
+        "Type": "TalentBridge2.Models.Job",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

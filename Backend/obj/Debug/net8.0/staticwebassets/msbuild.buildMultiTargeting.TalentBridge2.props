@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TalentBridge2.props" />
+</Project>

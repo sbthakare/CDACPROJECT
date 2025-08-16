@@ -1,0 +1,93 @@
+.job__item {
+  border: 1px solid #7c8a9736;
+  padding: 20px;
+  border-radius:10px;
+}
+
+.job__item-info span i {
+  color: #f9a826;
+  font-size: 1.1rem;
+}
+
+.job__item-btn {
+  border-radius: 0;
+  border: none;
+  outline: none;
+  background: #000d6b;
+  padding: 8px 0px;
+}
+
+.job__item-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.job__item-btn a:hover {
+  color: #fff;
+}
+.job__btn-details {
+  background: #f9a826;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.job__btn-rent {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.job__item-content h4 {
+  font-size: 1.8rem;
+}
+
+.job__item-content h6 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 992px) {
+  .job__item h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+
+  .job__item h6 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .job__item-info {
+    flex-wrap: wrap;
+  }
+
+  .job__item-info span {
+    font-size: 0.8rem;
+    justify-content: space-between;
+  }
+
+  .job__item-btn {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .job__item h4 {
+    font-size: 1rem;
+  }
+
+  .job__item h6 {
+    font-size: 0.9rem;
+  }
+
+  .job__item-info span {
+    font-size: 0.7rem;
+  }
+
+  .job__item-info span i {
+    font-size: 0.9rem;
+  }
+
+  .job__item-btn {
+    font-size: 0.8rem;
+  }
+}
